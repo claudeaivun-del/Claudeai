@@ -1,1 +1,21 @@
-{\n  "name": "gemini-as-claude",\n  "version": "1.0.0",\n  "main": "src/index.ts",\n  "scripts": {\n    "start": "ts-node src/index.ts",\n    "build": "tsc"\n  },\n  "dependencies": {\n    "typescript": "^4.0.0",\n    "ts-node": "^10.0.0"\n  }\n}
+{
+  "name": "claude-ai-gemini-integration",
+  "version": "1.0.0",
+  "description": "Claude Code using Gemini as backend - completely free and unlimited",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "uuid": "^9.0.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
