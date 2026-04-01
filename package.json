@@ -1,0 +1,1 @@
+{\n  "name": "gemini-as-claude",\n  "version": "1.0.0",\n  "main": "src/index.ts",\n  "scripts": {\n    "start": "ts-node src/index.ts",\n    "build": "tsc"\n  },\n  "dependencies": {\n    "typescript": "^4.0.0",\n    "ts-node": "^10.0.0"\n  }\n}
